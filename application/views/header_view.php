@@ -9,7 +9,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url();?>js/knockout.js"></script>
-  <script src="<?php echo base_url();?>js/main.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.production.min.js"></script>
+  <script type="text/babel" src="<?php echo base_url();?>js/App.js"></script>
+  <script type="text/babel" src="<?php echo base_url();?>js/main.js"></script>
   <script>var base_url = "<?php echo base_url(); ?>";</script>
 </head>
 <body>

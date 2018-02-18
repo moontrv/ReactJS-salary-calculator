@@ -71,7 +71,7 @@ class Welcome extends CI_Controller {
             $data = array('upload_data' => $this->upload->data());
             //$this->load->view('upload_success', $data);
             redirect('/Welcome', 'refresh');
-    }
+        }
     }
     
     public function deleteFile() {
@@ -90,7 +90,7 @@ class Welcome extends CI_Controller {
         return $this->output->set_output(json_encode("Deleted"));        
     } 
     
-    public function readExcel($fileName) {     
+    public function readExcel($fileName) {  
         $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
         $spreadsheet = $reader->load('./uploads/'.$fileName);     
         $sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);  

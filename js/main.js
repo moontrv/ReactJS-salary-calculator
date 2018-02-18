@@ -84,6 +84,12 @@ function AppViewModel() {
     }    
 }
 
+//import App from './App';
+ReactDOM.render(
+   <App />,
+   document.getElementById('hung_wrapper')
+);
+
 $(document).ready(function () {
     $.ajaxSetup({cache: false});
     var myViewModel = new AppViewModel();

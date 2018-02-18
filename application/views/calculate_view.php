@@ -3,14 +3,12 @@
 
 <div class="row">   
     <div class="col-md-7">
-        <?php echo form_open_multipart('Welcome/do_upload');?>
-
+        <form action="/Welcome/do_upload" method="post" enctype="multipart/form-data">
             <input type="file" name="userfile" size="20"/>
 
             <br /><br />
 
             <input class="btn btn-info" type="submit" value="Upload file" />
-
         </form>
     </div>
     <div class="col-md-5">
