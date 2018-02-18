@@ -33,6 +33,8 @@ Acknowledgement
 
 Library: https://phpspreadsheet.readthedocs.io/en/develop/topics/accessing-cells/#setting-a-range-of-cells-from-an-array
 
-Run: "composer install" to install libraries and dependencies for the project
+Run: "composer install" to install libraries and dependencies for the project.
 
 CodeIgniter project with minial integration of ReactJS and Babel.
+
+This project shows an example of how to migrate from PHP application with front-end KnockoutJS library to ReactJS library, when the migration process can happen gradually with iterative steps.
